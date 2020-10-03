@@ -1,0 +1,112 @@
+@media (max-width: 1500px) {
+    .header__search {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    .other {
+        display: none;
+    } 
+    .header__content-inner {
+        justify-content: space-evenly;
+    }   
+    .news__horizontally {
+        width: 95%;
+        margin: auto;
+   }
+   .news__vertically {
+        max-width: 840px;
+        margin: auto;
+   }
+   .news__content-inner{
+        justify-content: center;
+        flex-wrap: wrap;
+}
+}
+
+@media (max-width: 1300px) {
+    .main__services {
+        display: none
+    }
+}
+
+@media (max-width: 968px) {
+
+}
+
+@media (max-width: 870px) {
+    .news__vertically {
+        display: block;
+    }
+    .news__vertically div.main__content-item {
+        justify-content: center;
+    }
+    .lifestyle_vertically {
+        max-width: 533px;
+        height: 100%;
+    }
+    .lifestyle_vertically div.image {
+        height: 400px;
+    }
+    .lifestyle_vertically img {
+        height: 100%;
+    }
+    .autorv {
+        padding: 20px 20px 10px;
+    }
+    .autor {
+        padding: 20px 20px 10px;
+    }
+}
+@media (max-width: 870px) {
+    .news__content-inner {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+} 
+
+@media (max-width: 820px) {
+    .lifestyle div.image {
+        height: 100%;
+    }
+}
+@media (max-width: 595px) {
+    /* .news__horizontally div.main__content-item {
+        flex-direction: column;
+    } */
+    .lifestyle {
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .lifestyle div.image img {
+        width: 100%;
+        max-width: 350px;
+    }
+   .news__horizontally div.main__content-item {
+       justify-content: center;
+   }
+   
+}
+
+
+@media (max-width: 570px) {
+    .lifestyle_vertically {
+        max-width: 350px;
+    }
+    .lifestyle_vertically div.image {
+        max-height: 350px;
+    }
+    .lifestyle_vertically img {
+        max-width: 350px;
+    }
+    .lifestyle__type-3 {
+        width: 350px;
+    }
+    .lifestyle__type-3 div.image {
+        width: 350px;
+        max-width: 350px;
+        height: 216px;
+    }
+    
+}
