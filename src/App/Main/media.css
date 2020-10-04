@@ -31,6 +31,10 @@
     }
 }
 
+@media (max-width: 968px) {
+
+}
+
 @media (max-width: 870px) {
     .news__type-b {
         display: block;

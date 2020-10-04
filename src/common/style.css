@@ -26,12 +26,13 @@ ul, li {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1260px;
     margin: 0px auto;
     padding: 0px 15px;
 }
 
 .header__social {
+    letter-spacing: 5px;
     color: rgb(142, 142, 142);
     line-height: 40px;
     display: block;
@@ -395,7 +396,7 @@ input::placeholder {
 main {
     display: block;
 }
-.news__horizontally div.main__content-item {
+.news__type-a div.main__content-item {
     margin: 0px 10px;
 }
 .lifestyle {
@@ -473,18 +474,25 @@ main {
     font-family: Montserrat, sans-serif !important;
     padding: 20px 20px 0px;
 }
-.news__vertically {
+.news__type-a {
     display: flex;
     flex-wrap: wrap;
 }
-
+.news__type-b {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news__type-c {
+    display: flex;
+    flex-wrap: wrap;
+}
 .main__content-item {
     padding: 20px 0px 0px;
     display: flex;
 }
 
-.news__vertically div.main__content-item {
-    padding: 10px 0px 0px;
+.news__type-a div.main__content-item {
+    padding: 20px 0px 0px;
 }
 
 .lifestyle_vertically {
@@ -512,7 +520,6 @@ main {
 .main__services {
     margin: 20px;
     background-color: #fff;
-    height: 100%;
 }
 
 .search_services input{
@@ -523,7 +530,6 @@ main {
     outline: none;
     color: #b4b4b4;
 }
-
 
 .search_services {
     padding: 10px 40px;
