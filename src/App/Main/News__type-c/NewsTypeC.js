@@ -7,7 +7,7 @@ const NewsTypeC = () => {
                 <div className="lifestyle__type-3">
                     <div className="image">
                         <img src="images/Layer3.png" alt="" />
-                        <p>INSPIRATION</p>
+                        <div>INSPIRATION</div>
                     </div>
                     <div className="lifestyle__inner">
                         <div className="title">
@@ -41,7 +41,7 @@ const NewsTypeC = () => {
                 <div className="lifestyle__type-3">
                     <div className="image">
                         <img src="images/Layer4.png" alt="" />
-                        <p>TRIP</p>
+                        <div>TRIP</div>
                     </div>
                     <div className="lifestyle__inner">
                         <div className="title">
@@ -75,7 +75,7 @@ const NewsTypeC = () => {
                 <div className="lifestyle__type-3">
                     <div className="image">
                         <img src="images/Layer5.png" alt="" />
-                        <p>LIFESTYLE</p>
+                        <div>LIFESTYLE</div>
                     </div>
                     <div className="lifestyle__inner">
                         <div className="title">
