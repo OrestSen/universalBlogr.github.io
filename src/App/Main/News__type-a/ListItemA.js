@@ -1,30 +1,38 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const ListItemA= (props) => {
+
+const ListItemA= ({
+    theme,
+    title,
+    description ="No description ...",
+    name,
+    date
+}) => {
     return (
         <div className="main__content-item">
             <div className="lifestyle">
                 <div className="image">
                     <img src="images/lifestyle.png" alt="" />
-                    <div>{props.theme}</div>
+                    <div>{theme}</div>
                 </div>
                 <div className="lifestyle__inner">
                     <div className="title">
-                        {props.title}
+                        {title}
                     </div>
                     <div className="border">
                         <div className="description">
-                          {props.description}
+                          {description}
                         </div>
                     </div>
                     <div className="autor">
                         <img src="images/author.png" alt="" />
                         <span className="info">
                             <div className="name">
-                                {props.name}
+                                {name}
                             </div>
                             <div className="date">
-                                {props.date}
+                                {date}
                             </div>
                         </span>
                     </div>
@@ -33,4 +41,14 @@ const ListItemA= (props) => {
         </div>
     )
 }
+
+ListItemA.propTypes = {
+    theme:PropTypes.string.isRequired,
+    title:PropTypes.string.isRequired,
+    description:PropTypes.string,
+    name:PropTypes.string.isRequired,
+    date:PropTypes.string
+}
+
+
 export default ListItemA

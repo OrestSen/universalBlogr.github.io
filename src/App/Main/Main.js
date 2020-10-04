@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NewsListA from './News__type-a/NewsListA'
+import ListA from './News__type-a/ListA'
 import NewsTypeB from './News__type-b/NewsTypeB'
 import NewsTypeC from './News__type-c/NewsTypeC'
 import '../Main/media.css'
@@ -14,7 +14,7 @@ const Main = () => {
                 <div className="main__content">
                     <div className="main__content-inner">
                         <div>
-                            <NewsListA />    
+                            <ListA />    
                         </div>
                         <div>
                             <NewsTypeB />

@@ -4,18 +4,27 @@ import newsDataA from './newsDataA'
 import ListItemA from './ListItemA'
 
 
-const NewsListA = () => {
+const ListA = () => {
     return (
         <div className="news__type-a">
                 {
-                    newsDataA.map((news)=>(
-                        <ListItemA
-                            theme={news.theme}
-                            title={news.title}
-                            description={news.description}
-                            name={news.name}
-                            date={news.date}
-                        /> 
+                    newsDataA.map(({
+                        id,
+                        theme,
+                        title,
+                        description,
+                        name,
+                        date,
+                    })=>(
+                        <div key={id}>
+                            <ListItemA
+                                theme={theme}
+                                title={title}
+                                description={description}
+                                name={name}
+                                date={date}
+                            /> 
+                        </div>
                     ))
                 }
              
@@ -88,4 +97,4 @@ const NewsListA = () => {
         </div>
     )
 }
-export default NewsListA
+export default ListA
