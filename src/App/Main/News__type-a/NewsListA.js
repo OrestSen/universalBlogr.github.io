@@ -1,40 +1,24 @@
 import React from 'react'
+ 
+import newsDataA from './newsDataA'
 import ListItemA from './ListItemA'
+
 
 const NewsListA = () => {
     return (
         <div className="news__type-a">
-        
-                <ListItemA
-                    theme="INSPIRATION"
-                    title="4 Natural Ways To Have Young Skin"
-                    description=" Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula
-                            lorem
-                            and
-                            lacus. Vestibulum vitae mauris lorem ipsum doar."
-                    name="James Leman"
-                    date="April 28, 2016"
-                />
-                <ListItemA
-                    theme="LIFESTYLE"
-                    title="4 Natural Ways To Have Young Skin"
-                    description=" Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula
-                            lorem
-                            and
-                            lacus. Vestibulum vitae mauris lorem ipsum doar."
-                    name="Benjamin Miller"
-                    date="December 28, 2017"
-                />
-                <ListItemA
-                    theme="LIFESTYLE"
-                    title="4 Natural Ways To Have Young Skin"
-                    description=" Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula
-                            lorem
-                            and
-                            lacus. Vestibulum vitae mauris lorem ipsum doar."
-                    name="Benjamin Miller"
-                    date="October 6, 2016"
-                />
+                {
+                    newsDataA.map((news)=>(
+                        <ListItemA
+                            theme={news.theme}
+                            title={news.title}
+                            description={news.description}
+                            name={news.name}
+                            date={news.date}
+                        /> 
+                    ))
+                }
+             
             <div className="main__content-item">
                 <div className="lifestyle">
                     <div className="image">
