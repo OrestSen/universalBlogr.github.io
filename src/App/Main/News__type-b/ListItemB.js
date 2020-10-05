@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
-const ListItemA= ({
+const ListItemB = ({
     theme,
     title,
     description ="No description ...",
@@ -13,7 +12,7 @@ const ListItemA= ({
 }) => {
     return (
         <div className="main__content-item">
-            <div className="lifestyle">
+            <div className="lifestyle_vertically">
                 <div className="image">
                     <img src={image} alt="" />
                     <div>{theme}</div>
@@ -24,10 +23,10 @@ const ListItemA= ({
                     </div>
                     <div className="border">
                         <div className="description">
-                          {description}
+                            {description}
                         </div>
                     </div>
-                    <div className="autor">
+                    <div className="autorv">
                         <img src={author} alt="" />
                         <span className="info">
                             <div className="name">
@@ -44,7 +43,7 @@ const ListItemA= ({
     )
 }
 
-ListItemA.propTypes = {
+ListItemB.propTypes = {
     theme:PropTypes.string.isRequired,
     title:PropTypes.string.isRequired,
     description:PropTypes.string,
@@ -52,5 +51,4 @@ ListItemA.propTypes = {
     date:PropTypes.string
 }
 
-
-export default ListItemA
+export default ListItemB

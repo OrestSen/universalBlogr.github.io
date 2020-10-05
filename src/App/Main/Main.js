@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ListA from './News__type-a/ListA'
-import NewsTypeB from './News__type-b/NewsTypeB'
+import ListB from './News__type-b/ListB'
 import NewsTypeC from './News__type-c/NewsTypeC'
 import '../Main/media.css'
 import MainServices from './Main__services/MainServices'
@@ -17,7 +17,7 @@ const Main = () => {
                             <ListA />    
                         </div>
                         <div>
-                            <NewsTypeB />
+                            <ListB />
                         </div>
                         <div>
                             <NewsTypeC />
