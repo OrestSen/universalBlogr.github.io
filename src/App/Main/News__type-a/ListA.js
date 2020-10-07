@@ -1,5 +1,5 @@
 import React from 'react'
- 
+
 import newsDataA from './newsDataA'
 import ListItemA from './ListItemA'
 
@@ -7,17 +7,17 @@ import ListItemA from './ListItemA'
 const ListA = () => {
     return (
         <div className="news__type-a">
-                {
-                    newsDataA.map(({
-                        id,
-                        theme,
-                        title,
-                        description,
-                        name,
-                        date,
-                        image,
-                        author,
-                    })=>(
+            {
+                newsDataA.map(({
+                    id,
+                    theme,
+                    title,
+                    description,
+                    name,
+                    date,
+                    image,
+                    author,
+                }) => (
                         <div key={id}>
                             <ListItemA
                                 theme={theme}
@@ -27,11 +27,11 @@ const ListA = () => {
                                 date={date}
                                 image={image}
                                 author={author}
-                            /> 
+                            />
                         </div>
                     ))
-                }
-            </div>
+            }
+        </div>
     )
 }
 export default ListA
