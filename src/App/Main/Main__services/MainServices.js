@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const MainServices = () => {
     return (
         <div className="main__services">
@@ -14,11 +15,11 @@ const MainServices = () => {
                     categories
                 </div>
                 <div className="some_categories">
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Graphic Design</a></li>
-                    <li><a href="#">Web design</a></li>
-                    <li><a href="#">Videography</a></li>
+                    <li><a href="/">Photography</a></li>
+                    <li><a href="/">Lifestyle</a></li>
+                    <li><a href="/">Inspiration</a></li>
+                    <li><a href="/">Web design</a></li>
+                    <li><a href="/">Trip</a></li>
                 </div>
             </div>
             <div className="subcribe">

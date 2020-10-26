@@ -6,7 +6,6 @@ import ListC from './News__type-c/ListC'
 import '../Main/media.css'
 import MainServices from './Main__services/MainServices'
 
-
 const Main = () => {
     return (
         <main className="main">
@@ -14,7 +13,7 @@ const Main = () => {
                 <div className="main__content">
                     <div className="main__content-inner">
                         <div>
-                            <ListA />    
+                            <ListA />
                         </div>
                         <div>
                             <ListB />
