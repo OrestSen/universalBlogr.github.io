@@ -13,7 +13,7 @@ const MainServices = () => {
             </div>
             <div className="categories">
                 <div className="title_categories">
-                    categories
+                    <Link to="/">categories</Link>
                 </div>
                 <div className="some_categories">
                     <li>
