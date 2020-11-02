@@ -28,6 +28,16 @@ const newsDataA = [
         date:"October 6, 2016",
         image:'images/Layer 48.png',
         author:'images/author3.png',
+    },
+    {   
+        id:4,
+        theme:"INSPIRATION",
+        title: "4 Natural Ways To Have Young Skin",
+        description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
+        name:"Benjamin Miller",
+        date:"October 6, 2016",
+        image:'images/Layer 48.png',
+        author:'images/author3.png',
     }
 ]
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const MainServices = () => {
@@ -15,11 +16,21 @@ const MainServices = () => {
                     categories
                 </div>
                 <div className="some_categories">
-                    <li><a href="/">Photography</a></li>
-                    <li><a href="/">Lifestyle</a></li>
-                    <li><a href="/">Inspiration</a></li>
-                    <li><a href="/">Web design</a></li>
-                    <li><a href="/">Trip</a></li>
+                    <li>
+                        <Link to="/photography">Photography</Link>
+                    </li>
+                    <li>
+                        <Link to="/lifestyle">Lifestyle</Link>
+                    </li>
+                    <li>
+                        <Link to="/inspiration">Inspiration</Link>
+                    </li>
+                    <li>
+                        <Link href="/web">Web design</Link>
+                    </li>
+                    <li>
+                        <Link href="/trip">Trip</Link>
+                    </li>
                 </div>
             </div>
             <div className="subcribe">

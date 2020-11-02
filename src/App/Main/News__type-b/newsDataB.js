@@ -1,7 +1,7 @@
 const newsDataB = [
     {
         id:1,
-        theme: "INSPIRATION",
+        theme: "PHOTOGRAPHY",
         title: "Art Makes You Mentally Healthy",
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"Benjamin Miller",
@@ -32,6 +32,16 @@ const newsDataB = [
     {
         id:4,
         theme: "PHOTOGRAPHY",
+        title: "Art Makes You Mentally Healthy",
+        description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
+        name:"Benjamin Miller",
+        date:"October 6, 2020",
+        image:'/images/layer1.png',
+        author:'images/author3.png',
+    },
+    {
+        id:4,
+        theme: "LIFESTYLE",
         title: "Art Makes You Mentally Healthy",
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"Benjamin Miller",
