@@ -577,6 +577,10 @@ main {
     text-transform: uppercase;
     border-bottom: 1px solid #3f51b5;
     padding: 10px 0px;
+    font-size: 20px;
+}
+.title_categories a:hover {
+    color:#d873ee
 }
 
 .some_categories li> a {
@@ -588,7 +592,9 @@ main {
 .some_categories li {
     border-bottom: 1px solid black;
 }
-
+.some_categories li> a:hover {
+    color: #ff4081;
+}
 .subcribe {
     font-weight: bold;
     font-family: Montserrat, sans-serif !important;
@@ -600,8 +606,14 @@ main {
     text-transform: uppercase;
     border-bottom: 1px solid #3f51b5;
     padding: 10px 0px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
+.title_subcribe:hover {
+    color:#d873ee;
+    cursor: pointer;
+}
 .subcribe_input {
     margin: 15px 0px 15px;
     color: #404040;
