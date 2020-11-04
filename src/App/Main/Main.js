@@ -14,6 +14,7 @@ import CategoryLifestyleB from './News__type-b/CategoryB/CategoryLifestyleB'
 import CategoryLifestyleC from './News__type-c/CategoryC/CategoryLifestyleC'
 import CategoryPhotorgraphyA from './News__type-a/CategoryA/CategoryPhotographyA'
 import CategoryPhotographyB from './News__type-b/CategoryB/CategoryPhotographyB'
+import CategoryPhotographyC from './News__type-c/CategoryC/CategoryPhotographyC'
 
 const Main = () => {
     return (
@@ -41,6 +42,7 @@ const Main = () => {
                             <Route path="/" exact render={() => (
                                 <ListC />
                             )} />
+                            <Route path="/photography" component={CategoryPhotographyC}></Route>
                             <Route path="/inspiration" component={CategoryInspirationC} ></Route>
                             <Route path="/lifestyle" component={CategoryLifestyleC} ></Route>
                         </div>

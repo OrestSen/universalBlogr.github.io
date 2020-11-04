@@ -7,7 +7,7 @@ const Slider = () => {
                 inspiration
                         </div>
             <div className="slider__text2">
-                5 Ways milllennials can start
+                5 Ways millennials can start
                 building their future today
                         </div>
             <div className="slider__text3">

@@ -26,7 +26,7 @@ const newsDataA = [
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"Benjamin Miller",
         date:"October 6, 2016",
-        image:'images/Layer 48.png',
+        image:'images/featured.png',
         author:'images/author3.png',
     },
     {   

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Menu = () => {
     return (
@@ -6,7 +7,7 @@ const Menu = () => {
             <ul className="snip">
                 <li><a href="/" data-hover="home">home</a></li>
                 <li><a href="/" data-hover="portfolio">portfolio</a></li>
-                <li><a href="/" data-hover="blog">blog</a></li>
+                <li><Link to="/">blog</Link></li>
                 <li><a href="/" data-hover="pages">pages</a></li>
                 <li><a href="/" data-hover="shop">shop</a></li>
                 <li><a href="/" data-hover="components">components</a></li>

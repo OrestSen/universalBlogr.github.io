@@ -3,13 +3,13 @@ import React from 'react'
 const Social = () => {
     return (
         <div className="header__social">
-            <a href="#" className="fb" >
+            <a href="/" className="fb" >
                 <img src="" alt="" />
             </a>
-            <a href="#" className="tw" >
+            <a href="/" className="tw" >
                 <img src="" alt="" />
             </a>
-            <a href="#" className="pin" >
+            <a href="/" className="pin" >
                 <img src="" alt="" />
             </a>
             <a href="/" className="vk" >
@@ -21,10 +21,10 @@ const Social = () => {
             <a href="/" className="be">
                 <img src="" alt="" />
             </a>
-            <a href="#" className="pl">
+            <a href="/" className="pl">
                 <img src="" alt="" />
             </a>
-            <a href="#" className="ins">
+            <a href="/" className="ins">
                 <img src="" alt="" />
             </a>
             <div className="right">

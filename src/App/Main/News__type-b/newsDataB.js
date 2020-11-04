@@ -26,7 +26,7 @@ const newsDataB = [
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"James Leman",
         date:"May 14, 2020",
-        image:'/images/layer2.png',
+        image:'/images/MELOW.png',
         author:'images/author1.png',
     },
     {
@@ -36,7 +36,7 @@ const newsDataB = [
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"Benjamin Miller",
         date:"October 6, 2020",
-        image:'/images/layer1.png',
+        image:'/images/google.png',
         author:'images/author3.png',
     },
     {
@@ -46,7 +46,7 @@ const newsDataB = [
         description: " Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vehicula loremandlacus.Vestibulum vitae mauris lorem ipsum doar.",
         name:"Benjamin Miller",
         date:"October 6, 2020",
-        image:'/images/layer1.png',
+        image:'/images/romantisch.png',
         author:'images/author3.png',
     },
     {

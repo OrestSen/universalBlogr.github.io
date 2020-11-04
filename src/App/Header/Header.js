@@ -6,6 +6,7 @@ import Social from '../Header/Social/Social'
 import Menu from '../Header/Menu/Menu'
 import Slider from '../Header/Slider/Slider'
 import Search from '../Header/Search/Search'
+import Main from '../Main/Main'
 
 
 
